@@ -1247,11 +1247,16 @@
     width: 100%;
     max-width: 100%;
     height: auto;
-    max-height: 601.8px;
+    max-height: 639.8px;
 }
 
 .no-desk {
     display: block !important;
+    
+}
+
+.mapple-road{
+    margin-top: -10px;
 }
 
 
@@ -1854,7 +1859,7 @@ z-index: -1;
 .buil2-upper-img{
     
         height: 100%;
-        max-height: 582px;
+        max-height: 610px;
         width: 100%;
     
 }
