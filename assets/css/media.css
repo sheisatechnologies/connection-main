@@ -1164,7 +1164,12 @@
         background-color: #F7EBDA;
         margin-top: -25px;
         /* margin-left: -37px; */
+        height: auto;   
     }
+
+   
+
+      
 
     .buil3-phon,
     .buil2-phon{
