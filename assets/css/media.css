@@ -1157,13 +1157,14 @@
         margin-top: -50px;
     }
 
-    .mapple-map-phon{
-        width: 116%;
+   
+
+    .mapple-map-phon {
+        width: 100%;
         background-color: #F7EBDA;
         margin-top: -25px;
-        margin-left: -37px;
+        /* margin-left: -37px; */
     }
-
 
     .buil3-phon,
     .buil2-phon{
