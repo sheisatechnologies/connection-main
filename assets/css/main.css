@@ -207,7 +207,7 @@ body {
     font-family: ABCMonument R;
     box-sizing: border-box;
     font-size: 16px;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     max-width: 1440px;
     margin: auto;
 }
