@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Background Parallax</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/ScrollTrigger.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            overflow-x: hidden;
+        }
+        .section {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        .parallax-section {
+            position: relative;
+            height: 100vh;
+            background-image: url('assets/images/home/bg-image-home-01.jpg'); /* Replace with actual image */
+            background-size: cover;
+            background-position: center center;
+            background-attachment: scroll;
+            overflow: hidden;
+        }
+
+        /* Prevents gaps by slightly scaling the background */
+        .parallax-section::before {
+            content: "";
+            position: absolute;
+            width: 110%; /* Slightly larger than the container */
+            height: 110%; /* Extend height to cover any gaps */
+            top: -5%;
+            left: -5%;
+            background-image: inherit;
+            background-size: cover;
+            background-position: center;
+            z-index: -1;
+        }
+
+        .parallax-image {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <section class="section bg-primary text-white">Welcome to the Parallax Page</section>
+    
+    <section class="parallax-section">
+        <img src="assets/images/home/home-mask-1.png" alt="Parallax Image" class="parallax-image">
+    </section>
+    
+    <section class="section bg-secondary text-white">More Content Below</section>
+    
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+
+        // Background Image moves SLOWLY (Prevents gaps)
+        gsap.to(".parallax-section", {
+            backgroundPositionY: "-30%", 
+            // scale: 1.1, // Slightly scale to prevent gaps
+            scrollTrigger: {
+                trigger: ".parallax-section",
+                start: "top bottom",
+                end: "bottom top",
+                scrub: 1.5, 
+            }
+        });
+
+        // Mask Image moves FASTER
+        gsap.to(".parallax-image", {
+            y: -200, // Moves the mask image upwards faster
+            scrollTrigger: {
+                trigger: ".parallax-section",
+                start: "top bottom",
+                end: "bottom top",
+                scrub: 1.2, 
+            }
+        });
+    </script>
+</body>
+</html>

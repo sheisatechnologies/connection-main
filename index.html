@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Connection</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- <link rel="stylesheet" href="assets/css/media.css"> -->
+    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap/css/all.css">
+    <link rel="icon" href="assets/images/favicon.png" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+  <style>
+
+
+.cards-third {
+  gap: 2rem;  /* adds consistent spacing between columns */
+}
+
+
+@media (max-width: 991px) {
+  .cards-third {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .card-p-third {
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 6rem;
+  }
+
+  .child-card-third {
+    width: 100vw;
+    margin-left: 0px; /* default Bootstrap padding compensation */
+  }
+
+  .child-img-1 {
+    background-size: cover;
+    background-position: center;
+    height: inherit;
+  }
+}
+
+
+.down-arrow {
+      position: absolute; /* Absolute within the first section */
+      bottom: 20px;
+      left: 50%;
+      width: 50px;
+      transform: translateX(-50%);
+      font-size: 40px;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      animation: bounce 2s infinite;
+    }
+
+    /* Keyframes for bounce animation */
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translateX(-50%) translateY(0);
+      }
+      40% {
+        transform: translateX(-50%) translateY(-15px);
+      }
+      60% {
+        transform: translateX(-50%) translateY(-10px);
+      }
+    }
+  </style>
+  </head>
+  <body>
+    <div id="main-gc">
+      <div class="menu-overlay d-flex-c">
+        <i class="ri-close-large-fill"></i>
+        <ul type="none" class="d-flex-c">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="the-campus.html">The Campus</a>
+          </li>
+          <li>
+            <a href="building1.html">Building One</a>
+          </li>
+
+          <li>
+            <a href="building2.html">Building Two</a>
+          </li>
+          <li>
+            <a href="building3.html">Building Three</a>
+          </li>
+
+          <li>
+            <a href="area.html">Newbury</a>
+          </li>
+
+          <li><a href="sustainability.html">Sustainability</a></li>
+
+          <li>
+
+          <li>
+            <a href="labs.html">Labs</a>
+          </li>
+
+            <li>
+            <a href="contact.html">Contact</a>
+          </li>
+
+          
+        </ul>
+      </div>
+
+      <div id="main-video-hero">
+        <div class="video-desktop no-phon">
+          <video autoplay="" muted="" loop="">
+            <source src="assets/video/home-desktop.mp4" type="video/mp4" />
+            Your browser does not support HTML5 video.
+          </video>
+        </div>
+
+        <div class="video-mobile no-desk">
+          <video autoplay="" muted="" loop="" playsinline="">
+            <source src="assets/video/home-mobile.mp4" type="video/mp4" />
+            Your browser does not support HTML5 video.
+          </video>
+        </div>
+
+        <nav class="d-flex">
+          <img id="logo" src="./assets/images/logo.svg" alt="logo" />
+          <img id="nav-menu" src="./assets/images/menu.svg" alt="menu" />
+        </nav>
+
+
+        <div class="first-section-img d-flex logo_menu_no_desk">
+          <h1 class="mainP sp_text">Newbury</h1>
+          <img width="100px" src="./assets/images/home/section1.svg" alt="">
+        </div>
+
+        <button class="down-arrow"><img src="assets/images/gr-arrow-down.svg"></button>
+        
+      </div>
+
+      <!-- <div class="first-section section">
+        <nav class="d-flex">
+          <img id="logo" src="./Assets/logo.svg" alt="logo" />
+          <img id="nav-menu" src="./Assets/menu.svg" alt="menu" />
+        </nav>
+        <div class="first-section-2 d-flex">
+          <div class="first-text d-flex-c">
+            <h1>A BUSINESS</h1>
+            <h1>CAMPUS</h1>
+            <h1>IMMERSED</h1>
+            <h1>IN NATURE</h1>
+          </div>
+          <div class="first-section-img d-flex">
+            <h1 class="mainP sp_text">Newbury</h1>
+            <img width="100px" src="./Assets/section1.svg" alt="" />
+          </div>
+        </div>
+      </div> -->
+      <div class="second-section section d-flex flex-column">
+
+        <div class="ml-8 d-flex flex-column mw-100 mt-md-7">
+
+       
+        <h1 class="mainHeading mw-40 p-3 ml-2 d-none d-md-block mt-md-3 no-phon">A business campus immersed in nature.</h1>
+        <p class="desktop py-3 mw-40">
+          452,155 sq ft of office space and 38 acres of landscaped grounds in
+          Newbury set the foundation for innovation, community
+          and&nbsp;collaboration.
+        </p>
+        <p class="desktop mw-40"> Three available office buildings offer unique opportunities, 
+          from one desk to a company HQ, for every type of business to bloom.
+        </p>
+
+      </div>
+
+      <!-- <h1 class="mainHeading">A business campus immersed in nature.</h1> -->
+
+        
+        <p class="responsive mtp-8 fsp-2 pb-5 no-phon">
+          A business campus immersed in nature.
+        </p>
+
+        <p class="responsive mtp-1 lh-1">
+          452,155 sq ft of office space and 38 acres of landscaped grounds in
+          Newbury set the foundation for innovation, community
+          and&nbsp;collaboration.
+        </p>
+        
+        <p class="responsive mtp-1 lh-1">
+          Three available office buildings offer unique opportunities, 
+          from one desk to a company HQ, for every type of business to bloom.
+        </p>
+
+
+      </div>
+
+
+      <div class="third-section section">
+        <div class="bg-top"></div>
+       
+        <div class="overlay-third">
+            <div class="cards-third row d-flex">
+                <div class="card-p-third col-12 col-md-4 d-flex flex-column">
+                    <div class="child-card-third child-img-1">
+                        <h3><a href="building1.html">Discover</a></h3>
+                    </div>
+                    <div class="card-content d-flex flex-column">
+                        <h1 class="mainHeading">Building 01</h1>
+                        <p class="mainP d-none d-md-block">
+                            A collaborative hub, with co-working space, meeting rooms and the option to occupy your own floor or wing.
+                        </p>
+                        <p class="mainP d-block d-md-none">
+                            A collaborative hub, with co-working space, meeting rooms and the option to occupy your own floor or wing.
+                        </p>
+                    </div>
+                </div>
+                <div class="card-p-third col-12 col-md-4 d-flex flex-column card2">
+                    <div class="child-card-third child-img-2">
+                        <h3><a href="building2.html">Discover</a></h3>
+                    </div>
+                    <div class="card-content d-flex flex-column">
+                        <h1 class="mainHeading">Building 02</h1>
+                        <p class="mainP">
+                            A standalone office set-up for a company&nbsp;HQ.
+                        </p>
+                    </div>
+                </div>
+                <div class="card-p-third col-12 col-md-4 d-flex flex-column">
+                    <div class="child-card-third child-img-3">
+                        <h3><a href="building3.html">Discover</a></h3>
+                    </div>
+                    <div class="card-content d-flex flex-column">
+                        <h1 class="mainHeading">Building 03</h1>
+                        <p class="mainP">
+                            A blank canvas to be adapted based on the requirements of
+                            prospective&nbsp;users.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+      <!-- <div class="fix-back"></div> -->
+      <div class="fourth-section section">
+        <div class="bg-four-top no-phon"></div>
+        <div id="parallax2" class="parallax-item overlay-four"></div>
+        <!-- <div class="overlay-four d-flex">
+        </div> -->
+        <div class="overlay-four-png"></div>
+       
+        <img class="res-img" src="assets/images/home/home-tiles-mobile-1.jpg">
+        <div class="bg-four-btm d-flex-c">
+          <h1 class="mainHeading">The Campus</h1>
+          <p class="mainP">
+            A new enlivened development in Newbury, The Connection champions
+            people, planet and a pioneering&nbsp;spirit.
+          </p>
+          <a href="the-campus.html" class="btn">Discover</a>
+        </div>
+      </div>
+
+
+      <div class="fifth-section section">
+        <!-- <div class="bg-four-top"></div> -->
+        <div id="parallax3"  class="parallax-item overlay-fifth"></div>
+        <!-- <div class="overlay-fifth">
+        </div> -->
+        <div class="overlay-five-png"></div>
+        <img class="res-img" src="assets/images/home/home-tiles-mobile-2.jpg">
+        <img class="union_mask no-phon" src="assets/images/home/home-parallax-tile-top-right.jpg"> 
+        <div class="bg-four-btm d-flex-c bg-white-phon py-5">
+          <h1 class="mainHeading text-blue">Newbury</h1>
+          <p class="mainP text-blue">
+            An affluent town primed for progress, Newbury is set across
+            waterways and defined by quintessential British&nbsp;charm.
+          </p>
+          <a href="area.html" class="btn">Discover</a>
+        </div>
+      </div>
+
+
+
+      <div class="container-fluid no-desk">
+        <div class="row">
+          <div class="col-md-12 p-0">
+            <img class="no-desk img-fluid home-sustain-img" src="assets/images/home/home-labs-mobile.jpg">
+          </div>
+         
+        </div>
+      </div>
+
+
+
+
+
+
+
+      <div class="fifth-section insus-section section  no-desk">
+        <!-- <div class="bg-four-top"></div> -->
+         
+       
+        <!-- <div class="overlay-fifth">
+        </div> -->
+        
+        <div class="bg-four-btm d-flex-c  py-5">
+          <h1 class="mainHeading text-white">Labs</h1>
+          <p class="mainP text-white">
+            The Connection has laid the foundations for a new research facility
+            to find its&nbsp;home.
+          </p>
+          <a href="labs.html" class="btn">Discover</a>
+        </div>
+
+
+
+        <!-- <div class="bg-four-btm d-flex-c mtp-1v2 d-block d-md-none">
+          <h1 class="mainHeading text-white">Labs</h1>
+          <p class="mainP text-white">
+            The Connection has laid the foundations for a new research facility
+            to find its&nbsp;home.
+          </p>
+          <a href="labs.html" class="btn">Discover</a>
+        </div> -->
+      </div>
+
+      
+
+
+
+<div class="container-fluid no-desk">
+  <div class="row">
+    <div class="col-md-12 p-0">
+      <img class="no-desk img-fluid home-sustain-img" src="assets/images/home/home-sustainability-mobile.jpg">
+    </div>
+   
+  </div>
+</div>
+
+
+      <div class="seven-section insus-section section no-desk pb-5">
+        <!-- <div class="bg-four-top"></div> -->
+         
+        <!-- <div id="parallax4"  class="no-phon parallax-item overlay-six"></div> -->
+        <!-- <div class="overlay-fifth">
+        </div> -->
+        <div class="overlay-six-png no-phon"></div>
+       
+        <div class="bg-four-btm d-flex-c mtp-0">
+          <h1 class="mainHeading text-white">Sustainability</h1>
+          <p class="mainP text-white">
+            Sustainable practices were central to The Connection’s lifecycle from the very beginning,with the transformation of existing buildings to preserve the resources already&nbsp;available.
+          </p>
+          <a href="sustainability.html" class="btn">Discover</a>
+        </div>
+      </div>
+
+
+      <div class="sixth-section section d-flex no-phon ">
+        <div class="white-bg"></div>
+        <!-- <div class="box1"></div>
+        <div class="box2"></div> -->
+        <div class="no-phon-box3"></div>
+        <div class="no-phon-box4"></div>
+        <div id="parallax" class="parallax-item bg-six "></div>
+        <div class="bg-four-btm d-flex-c lab-box-phon">
+          <h1 class="mainHeading">Labs</h1>
+          <p class="mainP">
+            The Connection has laid the foundations for a new research facility
+            to find its&nbsp;home.
+          </p>
+          <a href="labs.html" class="btn">Discover</a>
+        </div>
+      </div>
+
+
+
+
+      <div class="fifth-section seven-section insus-section section d-none no-phon d-md-block">
+        <!-- <div class="bg-four-top"></div> -->
+         
+        <div id="parallax4"  class="no-phon parallax-item overlay-six"></div>
+        <!-- <div class="overlay-fifth">
+        </div> -->
+        <div class="overlay-six-png no-phon"></div>
+       
+        <div class="bg-four-btm d-flex-c mtp-1v1">
+          <h1 class="mainHeading text-white">Sustainability</h1>
+          <p class="mainP text-white">
+            Sustainable practices were central to The Connection’s lifecycle from the very beginning,with the transformation of existing buildings to preserve the resources already&nbsp;available.
+          </p>
+          <a href="sustainability.html" class="btn">Discover</a>
+        </div>
+      </div>
+
+
+
+
+      <div class="download-brochure">
+        <a class="mainP" href="#">Download brochure</a>
+      </div>
+
+      
+
+      <!-- <div class="footer d-flex-c">
+       
+        <h1 class="mainHeading desktop"><img id="logo" src="./assets/images/ftr-the-connection-logo.svg.svg" alt="logo" /></h1>
+       
+        <h1 class="mainHeading responsive"> <img id="logo" src="./assets/images/ftr-the-connection-logo.svg.svg" alt="logo" /></h1>
+        <div class="btm-footer d-flex">
+          <div class="lft-footer d-flex-c">
+            <p class="mainf new_foot">Newbury <br />RG14 2FN</p>
+            <div class="links-lft d-flex-c">
+              <a class="legal" href="#">Term & Conditions</a>
+              <a class="legal" href="#">Cookies Policy</a>
+              <a class="legal" href="#">Privacy Policy</a>
+            </div>
+          </div>
+          <div class="cntr-footer d-flex-c">
+            <h1>ENQUIRE</h1>
+            <div class="line"></div>
+            <div class="cntr-footer-section d-flex">
+              <div class="lft-cntr-footer d-flex-c">
+                <img width="100vw" src="./assets/images/CBRE.svg" alt="cbre" />
+                <div class="d-flex-c" id="kevin">
+                  <p class="mainf">Kevin Wood</p>
+                  <a class="mainf" href="tel:+44 7900584150">
+                    +44 (0) 7900 584150</a
+                  >
+                  <a class="mainf" href="mailto:kevin.wood@cbre.com"
+                    >kevin.wood@cbre.com</a
+                  >
+                </div>
+                <div class="d-flex-c" id="charlotte">
+                  <p class="mainf">Charlotte Reaney</p>
+                  <a class="mainf" href="tel:+44 7841684842">
+                    +44 (0) 7841 684842</a
+                  >
+                  <a class="mainf" href="mailto:charlotte.reaney@cbre.com"
+                    >charlotte.reaney@cbre.com</a
+                  >
+                </div>
+              </div>
+              <div class="rght-cntr-footer d-flex-c">
+                <img width="120vw" src="./assets/images/BNP.svg" alt="bnp" />
+                <div class="d-flex-c" id="Edward">
+                  <p class="mainf">Edward Smith</p>
+                  <a class="mainf" href="tel:+44 7836656538">
+                    +44 (0) 7836 656538</a
+                  >
+                  <a
+                    class="mainf"
+                    href="mailto:edward.smith@realestate.bnpparibas"
+                    >edward.smith@realestate.bnpparibas</a
+                  >
+                </div>
+                <div class="d-flex-c" id="rebecca">
+                  <p class="mainf">Rebecca Hewitt</p>
+                  <a class="mainf" href="tel:+44 7776636539">
+                    +44 (0) 7776 636539</a
+                  >
+                  <a
+                    class="mainf"
+                    href="mailto:rebecca.hewitt@realestate.bnpparibas"
+                    >rebecca.hewitt@realestate.bnpparibas</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="line respo-line"></div>
+          </div>
+          <div class="rght-footer d-flex">
+            <img width="20%" src="./assets/images/ftr-the-puzzle-logo.svg.svg" alt="" />
+          </div>
+        </div>
+      </div> -->
+
+
+      <section class="footer mtp-0">
+        <div class="container-fluid footer_con">
+          <div class="">
+      
+            <div class="footer_inner ">
+              <div class="footer_logo">
+                <div class="line no-desk"></div>
+                <img src="assets/images/ftr-the-connection-logo.svg.svg" class="img-fluid">
+              </div>
+              <div class="row footer_bottom_block">
+      
+                <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-xs-12 col-12 fbb_two">
+                  <div class="line_desk"></div>
+                  <div class="footer_inner_right">
+                   
+                    <div class="row">
+      
+                      <div class="col-md-6">
+                        <div class="footer_inner_left">
+                          <p>Newbury<span>RG14 2FN</span></p>
+                          
+                          
+                        </div>
+                        
+      
+                      </div>
+                      <div class="col-md-6">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="col-md-12 brochure_btn1   d-flex justify-content-center">
+                              <div class="row">
+                                <button type="button" class="button-brochure1 button-brochure2">Enquire</button>
+                              </div>
+                            </div>
+                          </div>
+      
+                          <div class="col-md-6">
+                            <div class="col-md-12 brochure_btn1   d-flex justify-content-center">
+                              <div class="row">
+                                <button type="button" class="button-brochure1">Download Brochure</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                      </div>
+                    </div>
+                   
+                    <div class="footer_inner_right_inner">
+                      <div class="row">
+      
+                        <div class="col-md-4">
+                          <div class="footer_inner_right_inner_left">
+                            <img src="assets/images/CBRE.svg" class="img-fluid">
+      
+                            <div class="common_footer_block">
+                              <p class="mainf">Kevin Wood</p>
+                              <a class="mainf" href="tel:+44 7900584150">+44 (0) 7900 584150</a>
+                              <a class="mainf" href="mailto:kevin.wood@cbre.com">kevin.wood@cbre.com</a>
+                            </div>
+      
+                            <div class="common_footer_block">
+                              <p class="mainf">Charlotte Reaney</p>
+                              <a class="mainf" href="tel:+44 7841684842">
+                                +44 (0) 7841 684842</a>
+                              <a class="mainf" href="mailto:charlotte.reaney@cbre.com">charlotte.reaney@cbre.com</a>
+                            </div>
+      
+                          </div>
+                        </div>
+      
+                        <div class="col-md-4">
+                          <div class="footer_inner_right_inner_right">
+                            <img src="assets/images/BNP.svg" class="img-fluid">
+      
+                            <div class="common_footer_block">
+                              <p class="mainf">Edward Smith</p>
+                              <a class="mainf" href="tel:+44 7836656538">
+                                +44 (0) 7836 656538</a>
+                              <a class="mainf"
+                                href="mailto:edward.smith@realestate.bnpparibas">edward.smith@realestate.bnpparibas</a>
+                            </div>
+      
+                            <div class="common_footer_block">
+                              <p class="mainf">Rebecca Hewitt</p>
+                              <a class="mainf" href="tel:+44 7776636539">
+                                +44 (0) 7776 636539</a>
+                              <a class="mainf"
+                                href="mailto:rebecca.hewitt@realestate.bnpparibas">rebecca.hewitt@realestate.bnpparibas</a>
+                            </div>
+      
+                          </div>
+                        </div>
+      
+                        <div class="col-md-4">
+                          <div class="footer_link">
+                           
+                            <span><a href="terms.html">Term & Conditions</a></span>
+                            <span><a href="coocke-policy.html">Cookies Policy</a></span>
+                            <span><a href="privacy-policy.html">Privacy Policy</a></span>
+                           
+                          </div>
+                        </div>
+      
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               
+                <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-xs-12 col-12 fbb_one">
+                  
+                
+                </div>
+      
+            
+      
+              </div>
+            </div>
+      
+          </div>
+        </div>
+        <div class="footer_img_block">
+          <img src="assets/images/ftr-the-puzzle-logo.svg.png" class="img-fluid">
+        </div>
+      </section>
+      
+
+
+
+    </div>
+
+
+    <script>
+      // Get the down arrow button
+      const arrowButton = document.querySelector('.down-arrow');
+  
+      // Add event listener for the button click
+      arrowButton.onclick = () => {
+        // Scroll directly to Section 2
+        document.querySelector('.second-section').scrollIntoView({ behavior: 'smooth' });
+      };
+    </script>
+
+
+    <!-- <script>
+      const sections = document.querySelectorAll('section');
+      let currentSectionIndex = 0;
+  
+      // Add event listener to the button
+      document.querySelector('.down-arrow').addEventListener('click', () => {
+        // Move to the next section
+        currentSectionIndex = (currentSectionIndex + 1) % sections.length;
+        sections[currentSectionIndex].scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    </script> -->
+
+
+<script>
+
+  // assets/js/script.js
+function reinitializeParallax3() {
+    // Kill any existing ScrollTriggers for #parallax3 to avoid duplicates
+    ScrollTrigger.getAll().forEach(trigger => {
+        if (trigger.trigger === document.querySelector('#parallax3')) {
+            trigger.kill();
+        }
+    });
+
+    // Reapply GSAP animation and ScrollTrigger to #parallax3 if not mobile
+    if (!isMobile()) {
+        initializeParallax3();
+    }
+}
+
+</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="assets/js/script.js"></script>
+   
+  </body>
+</html>

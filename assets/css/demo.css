@@ -1,0 +1,275 @@
+/* //////----------------------contact css media -----------------------////////// */
+@media only screen and (max-width: 991px) {
+    
+    .con_bg{
+
+        background-color: #f7ebda;;
+    }
+
+    .ri-close-large-fill {
+        position: absolute;
+        top: 20px;
+        right: 4vw;
+        font-size: 6vw;
+        color: #004c48;
+    }
+    
+    .contact_bg{
+        background-color: #004C48;
+    }
+
+    .lab_bg{
+        background-color: #528195;
+    }
+
+    .sustain_bg{
+        background-color: #004C48;
+    }
+
+    .area_bg{
+        background-color: #81628F !important;
+    }
+
+    .lab_pb{
+
+        padding-bottom: 75px;
+    }
+   
+
+    .header_section_text {
+        
+        width: 379px;
+        margin-left: -52px;
+        padding: 71px 30px;
+        margin-top: -505px;
+        height:850px
+    }
+
+
+    .contact-title2 {
+        color: #004C48;
+        margin-top: 50px;
+        margin-left: -120px;
+    }
+
+    .contact_box_right {
+        margin-left: 50px;
+        margin-top: -30px;
+        width: 370px;
+    }
+
+    .contact_box {
+        margin-top: 70px;
+    }
+
+
+
+    .footer_inner_right_inner_right img {
+        width: 150px;
+    }
+
+    .footer_inner_right_inner_right {
+        padding: 50px 0px;
+        /* margin-left: -40px; */
+    }
+   
+
+    .hero_tiles_contact {
+        
+        display: none;
+    }
+
+    .footer {
+        padding: 55px 0 !important;
+        height: 900px !important;
+        /* margin-top: 30px; */
+    }
+
+    .footer_inner_left {
+
+        margin-top: -34px;
+    }
+
+    .justify-content-center {
+        justify-content: flex-start !important;
+    }
+
+    .footer_link {
+        margin-top: 169px;
+        flex-direction: column;
+    }
+
+    .line_desk {
+       
+        top: 93px;
+       
+    }
+
+    .footer_inner_right_inner{
+
+        margin-top: 47px;
+    }
+
+    .footer_logo img {
+        margin-top: -99px;
+    }
+
+    .footer_margin{
+
+        margin-top: 450px;
+    }
+
+    
+
+
+  }
+
+
+
+
+  /* //////----------------------Lab css -----------------------////////// */
+@media only screen and (max-width: 991px) {
+   
+    .lab_hero_phon{
+        width: 100%;
+        height: 100%;
+
+    }
+    .area_image1 {
+        width: 100%;
+        height: auto;
+        margin-top: -151px;
+
+        position: relative;
+    }
+
+    .head_para{
+
+        font-size: 15px;
+    }
+    .head_sustain {
+        font-size: 30px;
+        line-height: 80px;
+        font-weight: 500;
+        color: #004C48;
+    }
+    .lab_text_ontainer {
+        margin-top: 0px;
+    }
+
+  }
+
+
+  /* //////----------------------Sustain -----------------------////////// */
+  @media only screen and (max-width: 991px) {
+    .h_section_text_h1 {
+        margin-top: 50px;
+    }
+
+    .sustain_img_sec2{
+
+        width: 100%;
+        height: 100%;
+        margin-top: 120px;
+
+    }
+
+    .px-4p {
+        padding-right: 2rem !important;
+        padding-left: 2rem !important;
+    }
+
+
+    .headeing_sec2 {
+       
+        line-height: 54px;
+       
+    }
+
+    .rr_text{
+
+        line-height: 40px;
+    }
+
+
+    .top_header_block_inner-sustain {
+       
+        height: 1060px;
+       
+    }
+
+   
+
+    
+
+
+  }
+
+    /* //////----------------------area css -----------------------////////// */
+@media only screen and (max-width: 991px) {
+    .pt-phon{
+
+        padding-top: 150px;
+    }
+    .area_image {
+        width: 100%;
+        height: auto;
+        margin-top: -140px;
+        position: relative;
+    }
+    .hero_tiles_sus {
+        width: 70px;
+        height: 100px;
+        
+    }
+    .area-sec1-text {
+        width: 100%;
+        margin-top: 0px;
+    }
+    .area-title p {
+        margin-top: 30px;
+        width: 100% ;
+        color: var(--Albescent-White);
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .area-contain-sec1 {
+        position: relative;
+        top: 100px;
+    }
+}
+
+/* /////////////----campuspage----///////// */
+@media only screen and (max-width: 991px) {
+
+    .img_pro_section {
+        margin-top: 437px;
+        margin-bottom: 56px;
+    }
+
+}
+
+
+/* /////////////----Mapple----///////// */
+@media only screen and (max-width: 991px) {
+
+    .mapple_single_bg {
+        margin-top: -5px !important;
+    }
+    
+    .tab-content-section {
+        position: relative !important;
+        top: 44px !important;
+    }
+
+
+    .heading_mapple {
+        
+        margin-top: -36px !important;
+    }
+
+   
+
+
+}

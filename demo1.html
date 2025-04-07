@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Responsive Full Width BG</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    .full-bg {
+      width: 100%;
+      height: 100vh;
+      background-color: #000; /* fallback background */
+      background-image: url('assets/images/lab/labs-tiles.png');
+      background-repeat: no-repeat;
+      background-position: top center;
+      background-size: contain;
+    }
+
+    @media (max-width: 768px) {
+      .full-bg {
+        background-image: url('assets/images/lab/lab_tiles_mobile.png');
+      }
+    }
+
+    .content {
+      color: white;
+      text-align: center;
+      padding-top: 60vh;
+      font-size: 2rem;
+      font-weight: bold;
+      text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="full-bg">
+    <div class="content">
+      Full Width Background, No Stretch
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

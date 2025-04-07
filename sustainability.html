@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>The Connection</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+  <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap/css/all.css">
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+  
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/media.css">
+  <link rel="icon" href="assets/images/favicon.png" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+
+<style>
+@media (max-width: 991px) {
+    .lab_main_container {
+       
+      background-image: url("../assets/images/lab/sus_tiles_mobile.png");
+    min-height: 100vh; /* Full viewport height */
+    background-size: cover; /* Cover full section */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* No repeating */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    }
+
+    
+
+    .lab_mask_tiles {
+        display: none; /* Hide desktop image on mobile if needed */
+    }
+
+    .sus_text_ontainer {
+        padding: 20px;
+    }
+
+    .head_suatain_first, 
+    .head_sustain {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .head_para {
+        font-size: 1rem;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-md-6, 
+    .col-md-8, 
+    .col-md-9, 
+    .col-md-10 {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .mobile_head, 
+    .mobile_para {
+        margin-top: 15px;
+    }
+}
+
+
+
+.sus-para-container{
+
+  position: relative;
+  z-index: 4;
+  background-color: transparent;
+}
+.seven-section {
+    position: relative;
+    height: auto;
+    margin-top: 5vh;
+    margin-top: -1.6px;
+    background-color: white;
+    background-image: url(./assets/images/sustainability/para/sustainability-butterfly-image.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overlay-seven-png {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url(./assets/images/sustainability/para/sustainability-mask.png);
+    background-size: cover;
+    background-position: center;
+    /* transition: all cubic-bezier(0.19, 1, 0.22, 1) 2s; */
+
+
+    
+}
+
+
+
+</style>
+
+
+</head>
+
+<body>
+
+ 
+    <!---------------------------------------------------------------
+                    responsive mobile header section
+  ------------------------------------------------------------------>
+
+  <section class="maple-header no-desk">
+
+
+    <div class="container-fluid p-0">
+      <div class="row">
+        <img src="assets/images/mobile-hero/mobile-sustainability-hero-mask.png" class="img-fluid">
+        <img src="assets/images/sustainability/sustain_phon_img.jpg" class="img-fluid sus_phon_img p-0">
+      </div>
+    </div>
+
+    <div class="container-fluid p-0">
+
+      <div class="total_menu_section">
+        <div class="filter"></div>
+        <div class="mobile-slider">
+          <div class="mobile-slider-top">
+            <i class="ri-close-large-fill"></i>
+          </div>
+          <nav class="mobile-navigation">
+
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="the-campus.html">The Campus</a>
+            </li>
+            <li>
+              <a href="building1.html">Building One</a>
+            </li>
+  
+            <li>
+              <a href="building2.html">Building Two</a>
+            </li>
+            <li>
+              <a href="building3.html">Building Three</a>
+            </li>
+  
+            <li>
+              <a href="area.html">Newbury</a>
+            </li>
+  
+            <li><a href="sustainability.html">Sustainability</a></li>
+  
+            <li>
+  
+            <li>
+              <a href="labs.html">Labs</a>
+            </li>
+  
+              <li>
+              <a href="contact.html">Contact</a>
+            </li>
+
+          </nav>
+        </div>
+        <header>
+          <div class="header-inner">
+            <div class="main_logo">
+              <a href="index.html">
+              <img src="assets/images/logo.svg" class="img-fluid">
+            </a>
+            </div>
+            <div class="mobile-menu-icon">
+             
+               
+           
+              <img id="nav-menu" src="assets/images/menu.svg" alt="menu" />
+            </div>
+          </div>
+        </header>
+      </div>
+
+      <div class="header_section_text_inner">
+        <div class="header_section_text_sus">
+          <!-- <ul>
+            <li><a href="#master">Master plan</a></li>
+            <li><a href="#amenities">Amenities</a></li>
+            <li><a href="#clearing">The Clearing</a></li>
+            <li><a href="#sustainability">Sustainability</a></li>
+          </ul> -->
+          <div class="h_section_text_h1">
+            <p class="sub-title_main camp-title pb-3">SUSTAINABILITY</p>
+            <h1 class="camp-h1">Reuse, refurbish, reimagine</h1>
+          </div>
+          <div class="h_section_text_p">
+            <p class="camp-p">A refurbishment that enhances the building specification and improves functionality and user experience while limiting its Carbon impact.
+              
+              
+              </p>
+
+              <p class="camp-p mtp-1">This consciousness in construction extends through every element of the campus, sowing the seeds for a 
+                future that benefits the climate and the community. Electric-only power minimises carbon footprint.
+                 Efficient and user-optimised light, heating and cooling technology minimises spending and sets 
+                 the foundation for a spirit of wellbeing, bolstered by green and social spaces for a host of
+                  natural&nbsp;benefits.</p>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+
+  </section>
+
+ <!---------------------------------------------------------------
+                    responsive mobile header section
+  ------------------------------------------------------------------>
+
+  <section class="top_header_block-sustain no-phon">
+    <div class="hero_tiles_sus"></div>
+    <div class="top_header_block_inner-sustain">
+
+      <div class="top_header_block_one">
+
+        <div class="container-fluid pxd-5">
+
+          <div class="total_menu_section">
+            <div class="filter"></div>
+            <div class="mobile-slider">
+              <div class="mobile-slider-top">
+                <i class="ri-close-large-fill"></i>
+              </div>
+              <nav class="mobile-navigation">
+
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <a href="the-campus.html">The Campus</a>
+                </li>
+                <li>
+                  <a href="building1.html">Building One</a>
+                </li>
+      
+                <li>
+                  <a href="building2.html">Building Two</a>
+                </li>
+                <li>
+                  <a href="building3.html">Building Three</a>
+                </li>
+      
+                <li>
+                  <a href="area.html">Newbury</a>
+                </li>
+      
+                <li><a href="sustainability.html">Sustainability</a></li>
+      
+                <li>
+      
+                <li>
+                  <a href="labs.html">Labs</a>
+                </li>
+      
+                  <li>
+                  <a href="contact.html">Contact</a>
+                </li>
+
+              </nav>
+            </div>
+            <header>
+              <div class="header-inner">
+                <div class="logo">
+                  <a href="index.html">
+                  <img src="assets/images/logo.svg" class="img-fluid">
+                  </a>
+                </div>
+                <div class="mobile-menu-icon">
+                 
+                   
+               
+                  <img id="nav-menu" src="assets/images/menu.svg" alt="menu" />
+                </div>
+              </div>
+            </header>
+          </div>
+
+          <div class="header_section_text_inner">
+            <div class="header_section_text sustain_bg sus-header-phon">
+              <!-- <ul>
+                <li><a href="#">Master plan</a></li>
+                <li><a href="#">Amenities</a></li>
+                <li><a href="#">The Clearing</a></li>
+                <li><a href="#">Sustainability</a></li>
+              </ul> -->
+              <div class="h_section_text_h1">
+                <p class="sub-title_main sustain_title pb-3">SUSTAINABILITY</p>
+                <h1 class="sustain_h1">Reuse, refurbish, reimagine</h1>
+              </div>
+              <div class="h_section_text_p">
+                <p class="sustain_p"> A refurbishment that enhances the building specification and improves functionality and user experience while limiting its Carbon impact.<br><br>
+                    
+                    </p>
+
+                    <p  class="sustain_p">
+                      This consciousness in construction extends through every element of the campus, sowing the seeds for a 
+                      future that benefits the climate and the community. Electric-only power minimises carbon footprint.
+                       Efficient and user-optimised light, heating and cooling technology minimises spending and sets 
+                       the foundation for a spirit of wellbeing, bolstered by green and social spaces for a host of
+                        natural&nbsp;benefits.</p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+      <div class="mobile_img">
+        <img src="assets/images/mobile3.png" class="img-fluid">
+      </div>
+    </div>
+  </section>
+
+
+  
+
+  <div class="container-fluid no-desk p-0 sus-bg">
+    <div class="row p-0">
+      <div class="col-md-12 p-0">
+        <img class= "img-fluid sustain-img p-2" src="assets/images/sustainability/mobile-sustainability-tile-2.png">
+      </div>
+    </div>
+  </div>
+
+  <div class="seven-section section">
+    <!-- <div class="bg-four-top"></div> -->
+    <div id="parallax3"  class="parallax-item overlay-seven no-phon"></div>
+    <!-- <div class="overlay-fifth">
+    </div> -->
+    <div class="overlay-seven-png sus-bg"></div>
+   
+   <div class="container sus-para-container pd-7 pp-3">
+    <div class="row">
+      <div class="col-md-6"></div>
+      <div class="col-md-6 sus-contain-phon pd-7">
+
+        <div class="row">
+          <h1 class="headeing_sec2"><span class="span_sus">24 % </span>REDUCTION</h1>
+
+              <p class="para_sec2 pt-3">in whole life carbon emissions compared to a new build scenario.</p>
+
+              
+        </div>
+        
+        <div class="row mt-md-4">
+          <p class="para_sec2 mtp-2">Target accreditations:</p>
+          <img class= "img-fluid py-5" src="assets/images/sustainability/image 1.png">
+        </div>
+
+
+
+      </div>
+    </div>
+   </div>
+  </div>
+
+
+
+
+
+
+
+  
+ 
+
+
+
+    
+
+
+
+
+
+
+
+   <div class="container-fluid px-4p lab_pb lab_main_container mbt-3 py-5">
+    <div class="row">
+      <img class="lab_mask_tiles no-phon p-0" src="assets/images/lab/labs-tiles.png">
+      <div class="sus_text_ontainer sustain_container  px-lg-5 px-md-5 py-5">
+        <div class="row">
+          <div class="col-md-6 py-3">
+             <h4 class="head_suatain_first">The economically and
+              environmentally sound choice.</h4>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-8 py-3">
+              <h1 class="head_sustain">GREENER LIVING</h1>
+              <p class="head_para">A 10% net gain in biodiversity across the campus. The Loop, on-site gym, cycle storage and outdoor space encourage activity.</p>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-10 py-3">
+              <h1  class="head_sustain mobile_head">RENEWABLE & RESILIENT</h1>
+              <p class="head_para mobile_para">Electric-only power that runs on a tariff using only renewable energy and future-proof innovative tech.</p>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-8 py-3">
+              <h1  class="head_sustain">ENERGY EFFICIENT</h1>
+              <p class="head_para">Sustainable technology keep the required power resources to a minimum.</p>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-9 py-3">
+              <h1  class="head_sustain">ELEMENTAL DESIGN</h1>
+              <p class="head_para">The open atrium and staircase design promotes active air circulation and strategic planting allows for further connection to nature.</p>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-6 py-3">
+             <h1  class="head_sustain">LOW IMPACT</h1>
+             <p class="head_para">Buildings were refurbished not demolished, reducing carbon emissions and construction-related waste.</p>
+          </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+ 
+
+
+
+<section class="footer">
+  <div class="container-fluid footer_con">
+    <div class="">
+
+      <div class="footer_inner ">
+        <div class="footer_logo">
+          <div class="line no-desk"></div>
+          <img src="assets/images/ftr-the-connection-logo.svg.svg" class="img-fluid">
+        </div>
+        <div class="row footer_bottom_block">
+
+          <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-xs-12 col-12 fbb_two">
+            <div class="line_desk"></div>
+            <div class="footer_inner_right">
+             
+              <div class="row">
+
+                <div class="col-md-6">
+                  <div class="footer_inner_left">
+                    <p>Newbury<span>RG14 2FN</span></p>
+                    
+                    
+                  </div>
+                  
+
+                </div>
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="col-md-12 brochure_btn1 d-flex justify-content-center">
+                        <div class="row">
+                          <button type="button" class="button-brochure1 button-brochure2">Enquire</button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="col-md-12 brochure_btn1 d-flex justify-content-center">
+                        <div class="row">
+                          <button type="button" class="button-brochure1">Download Brochure</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+             
+              <div class="footer_inner_right_inner">
+                <div class="row">
+
+                  <div class="col-md-4">
+                    <div class="footer_inner_right_inner_left">
+                      <img src="assets/images/CBRE.svg" class="img-fluid">
+
+                      <div class="common_footer_block">
+                        <p class="mainf">Kevin Wood</p>
+                        <a class="mainf" href="tel:+44 7900584150">+44 (0) 7900 584150</a>
+                        <a class="mainf" href="mailto:kevin.wood@cbre.com">kevin.wood@cbre.com</a>
+                      </div>
+
+                      <div class="common_footer_block">
+                        <p class="mainf">Charlotte Reaney</p>
+                        <a class="mainf" href="tel:+44 7841684842">
+                          +44 (0) 7841 684842</a>
+                        <a class="mainf" href="mailto:charlotte.reaney@cbre.com">charlotte.reaney@cbre.com</a>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="footer_inner_right_inner_right">
+                      <img src="assets/images/BNP.svg" class="img-fluid">
+
+                      <div class="common_footer_block">
+                        <p class="mainf">Edward Smith</p>
+                        <a class="mainf" href="tel:+44 7836656538">
+                          +44 (0) 7836 656538</a>
+                        <a class="mainf"
+                          href="mailto:edward.smith@realestate.bnpparibas">edward.smith@realestate.bnpparibas</a>
+                      </div>
+
+                      <div class="common_footer_block">
+                        <p class="mainf">Rebecca Hewitt</p>
+                        <a class="mainf" href="tel:+44 7776636539">
+                          +44 (0) 7776 636539</a>
+                        <a class="mainf"
+                          href="mailto:rebecca.hewitt@realestate.bnpparibas">rebecca.hewitt@realestate.bnpparibas</a>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="footer_link">
+                     
+                        <span><a href="terms.html">Term & Conditions</a></span>
+                        <span><a href="coocke-policy.html">Cookies Policy</a></span>
+                        <span><a href="privacy-policy.html">Privacy Policy</a></span>
+                     
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+         
+          <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-xs-12 col-12 fbb_one">
+            
+          
+          </div>
+
+      
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="footer_img_block">
+    <img src="assets/images/ftr-the-puzzle-logo.svg.png" class="img-fluid">
+  </div>
+</section>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+ 
+
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/parallax.js"></script>
+  <script src="assets/js/main.js"></script>
+  
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script> -->
+
+
+  <script>
+
+    // assets/js/script.js
+  function reinitializeParallax3() {
+      // Kill any existing ScrollTriggers for #parallax3 to avoid duplicates
+      ScrollTrigger.getAll().forEach(trigger => {
+          if (trigger.trigger === document.querySelector('#parallax3')) {
+              trigger.kill();
+          }
+      });
+  
+      // Reapply GSAP animation and ScrollTrigger to #parallax3 if not mobile
+      if (!isMobile()) {
+          initializeParallax3();
+      }
+  }
+  
+  </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+      <script src="assets/js/script.js"></script>
+</body>
+
+</html>

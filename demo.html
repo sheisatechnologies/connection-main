@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lab Info Section</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+    }
+
+    .lab-section {
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: #004d40;
+      display: flex;
+      align-items: center;
+    }
+
+    .lab-section .container {
+      padding: 20px;
+    }
+
+    .lab-heading {
+      font-size: 3rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+      text-align: left;
+    }
+
+    .lab-para {
+      font-size: 1.2rem;
+      max-width: 900px;
+      margin-bottom: 40px;
+      text-align: left;
+    }
+
+    /* Desktop background */
+    @media (min-width: 992px) {
+      .lab-section {
+        background-image: url('assets/images/lab/labs-tiles.png');
+      }
+    }
+
+    /* Mobile background */
+    @media (max-width: 991.98px) {
+      .lab-section {
+        background-image: url('assets/images/lab/lab_tiles_mobile.png');
+      }
+    }
+
+    .lab-section::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,0.6); /* light overlay */
+  z-index: 1;
+}
+.lab-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+  </style>
+</head>
+<body>
+
+<section class="lab-section">
+  <div class="container">
+    <h1 class="lab-heading">LAB-READY</h1>
+    <p class="lab-para">Fume extraction routes are ready for use, while slab to slab heights of between 3.38m and 6m provide ample space for equipment.</p>
+
+    <h1 class="lab-heading">POWER PROTECTION</h1>
+    <p class="lab-para">Electric power from a 1MVA substation serves each building, natural gas connection is available, and back-up generators provide peace of mind.</p>
+
+    <h1 class="lab-heading">ENHANCED ACCESS</h1>
+    <p class="lab-para">A dedicated loading bay and service lift is available for secure deliveries and waste removal.</p>
+
+    <h1 class="lab-heading">SECURE STORAGE</h1>
+    <p class="lab-para">Specialist gas and hazardous waste storage facilities are possible on-site.</p>
+
+    <h1 class="lab-heading">COLLABORATIVE HUB</h1>
+    <p class="lab-para">The central atrium and campus hub promote the sharing of ideas and inspiration to power your business.</p>
+
+    <h1 class="lab-heading">5.9 METRES</h1>
+    <p class="lab-para">Slab to slab heights between 3.4m to 5.9m.</p>
+  </div>
+</section>
+
+</body>
+</html>
