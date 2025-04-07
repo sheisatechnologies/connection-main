@@ -436,6 +436,12 @@ nav .ri-menu-line {
   margin-top: 20px;
 }
 
+.container-fluid, .col-md-12 {
+  padding: 0;  /* Remove extra padding if any */
+  width: 100%; /* Ensure full width */
+}
+
+
 /* -----fifth-section----- */
 .fifth-section {
   position: relative;
