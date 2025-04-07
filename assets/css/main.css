@@ -203,13 +203,17 @@ input:focus {
     justify-content: center;
 }
 
-body {
-    font-family: ABCMonument R;
+html, body {
+    font-family: "ABCMonument R", sans-serif;
     box-sizing: border-box;
     font-size: 16px;
     overflow-x: hidden;
-    max-width: 1440px;
-    margin: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
 }
 
 
